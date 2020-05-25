@@ -65,53 +65,6 @@ body{font-family: 'Philosopher', sans-serif;}
 /*<!--End Nav Bar-->*/
 
 
-/*<!--Start Carousal -->*/
-
-.carousel-item {
-    background-size: cover;
-    background-position: center;
-
-}
-
-@media(max-width:768px) {
-    #main-slider .carousel-item p {
-        font-size: 1.7rem;
-        text-align: center;
-        left: auto;
-        max-width: 100%;
-    }
-}
-
-.carousel-item p {
-    position: absolute;
-    left: 10%;
-    top: 40%;
-    transform: translate(-00%, -40%);
-    color: white;
-    font-size: 4rem;
-    font-weight: bolder;
-    -webkit-transform: translate(-00%, -40%);
-    -moz-transform: translate(-00%, -40%);
-    -ms-transform: translate(-00%, -40%);
-    -o-transform: translate(-00%, -40%);
-}
-
-.carousel-item p span {
-    color: gold;
-    animation: shadow-wave 2s ease infinite;
-    -webkit-animation: shadow-wave 2s ease infinite;
-}
-
-/*<!--End Carousal -->*/
-
-
-
-
-
-
-
-
-
 /*<!--Start Intro-->*/
 .intro-header {
     margin-top: 10%;
